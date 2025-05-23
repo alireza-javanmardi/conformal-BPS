@@ -1,6 +1,6 @@
 # Optimal Conformal Prediction under Epistemic Uncertainty
 
-This repo has the code for the paper Conformalized Credal Set Predictors written by Alireza Javanmardi, Soroush H. Zargarbashi, Santo M. A. R. Thies, Willem Waegeman, Aleksandar Bojchevski, and Eyke Hüllermeier. 
+This repo has the code for the paper Optimal Conformal Prediction under Epistemic Uncertainty written by Alireza Javanmardi, Soroush H. Zargarbashi, Santo M. A. R. Thies, Willem Waegeman, Aleksandar Bojchevski, and Eyke Hüllermeier. 
 
 
 ## 📁 Folder Structure
