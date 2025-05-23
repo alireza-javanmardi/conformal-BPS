@@ -1,0 +1,2 @@
+This files were taken from the following sources:
+https://github.com/chenyaofo/pytorch-cifar-models/tree/master
