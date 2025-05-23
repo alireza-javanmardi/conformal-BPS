@@ -2,7 +2,7 @@
 
 This repository contains the code necessary to reproduce the results presented in the paper.
 
----
+
 
 ## 🔧 Setup
 
@@ -12,7 +12,7 @@ Please create a virtual environment and install the required packages using:
 pip install -r requirements.txt
 ```
 
----
+
 
 ## 📁 Folder Structure
 
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 * **training**: Model training scripts for CIFAR-10 and CIFAR-100.
 * **epiuc**: Source code and utilities for models, uncertainty wrappers, evaluation routines, and other core components.
 
----
+
 
 ## 🧪 Section 6.1 – A Synthetic Experiment Given Valid Second-Order Predictions
 
@@ -31,7 +31,7 @@ Run the experiment with:
 python illustration.py
 ```
 
----
+
 
 ## 🔄 Section 6.2 – Conformalized Credal Sets with Probabilistic Validity
 
@@ -62,7 +62,7 @@ python results_from_sets_credal.py
 3. Beta
 4. Calibration size
 
----
+
 
 ## 🌍 Section 6.3 – Real-World Experiments Beyond Valid Second-Order Predictions
 
@@ -109,7 +109,7 @@ python results_from_sets.py
 3. CP alpha
 4. Calibration size
 
----
+
 
 ## 📊 Appendix D – A Synthetic Experiment
 
