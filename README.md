@@ -23,10 +23,21 @@ Here is the general procedure of how BPS maps a credal set to a prediction set:
 ```shell
  pip install -r requirements.txt
 ```
-3. Activate the virtual environment and run:
-```shell
- python real_sets_from_credal.py
-```
+## Repository structure
+
+### `experiments/`
+
+- **`real_credal_predictions`** — construct credal sets for a given dataset, a model (`CreRL` or `CreEns`), a model seed, and a parameter `gamma`.
+- **`real_sets_from_credal`** — construct BPS-based prediction sets given the credal sets, for a given dataset, a model (`CreRL` or `CreEns`), a model seed, the parameter `gamma`, the conformal prediction `alpha`, the desired conditional coverage, and the conformal calibration–test split seed.
+- **`read_APS_sets_from_credal`** — same as `real_sets_from_credal`, but constructs APS-based prediction sets.
+- **`real_sets_from_conformal_credal`** — construct conformalized credal sets and then the BPS-based and APS-based prediction sets given the conformalized credal sets, for a given dataset, a model (`CreRL` or `CreEns`), a model seed, the parameter `gamma`, the conformal credal set `epsilon`, the desired conditional coverage, and the (conformal credal) calibration–test split seed.
+
+### `notebooks/`
+
+- **`valid_credals.ipynb`** — create synthetic valid credal sets and apply BPS and APS on top of them to obtain the prediction sets.
+- **`toy_example.ipynb`** — Toy Example 1 in the paper, comparing the adaptivity of BPS to APS with respect to epistemic uncertainty.
+- **`plots.ipynb`** — generate all the plots used in the paper.
+- **`tables.ipynb`** — generate all the tables used in the paper.
 ## Citation
 
 If you use this code, please cite our paper:
